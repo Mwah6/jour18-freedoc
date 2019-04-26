@@ -23,7 +23,7 @@ patient_array = [{first_name: 'Richard', last_name: 'Virenque', city_id: City.al
 patient_array.each do |patient|
   Patient.create(patient)
 end
-=
+
 doctors_array.each do |doctor|
   Doctor.create(doctor)
 end
